@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/rememberUserFragment">
+    <fragment
+        android:id="@+id/rememberUserFragment"
+        android:name="com.shubhamkumarwinner.rememberandauthenticateuser.RememberUserFragment"
+        android:label="remember_user_fragment"
+        tools:layout="@layout/remember_user_fragment" />
+</navigation>
